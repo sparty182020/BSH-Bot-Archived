@@ -1,0 +1,8 @@
+{
+    "developers": [
+        "ARRAY_OF_DEVELOPER_IDS"
+    ],
+    "alts": [
+        "ARRAY_OF_DEVELOPER_ALT_ACCOUNT_IDS"
+    ]
+}

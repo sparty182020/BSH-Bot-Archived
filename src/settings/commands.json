@@ -1,0 +1,10 @@
+{
+    "disabled": [
+        "whisper",
+        "chatgpt",
+        "bday",
+        "music",
+        "playstream",
+        "recorder"
+    ]
+}
