@@ -5,10 +5,10 @@ const { catchErrors } = require("../functions/handlers/handleErrors");
 console.log(chalk.green(`[${require('../settings/general.json').prefix}] Loading SQL...`))
 
 const connection = mysql.createConnection({
-    host: "connect.db.daad.wtf",
-    user: "panel",
-    password: "paQltOgmNt5Q6FNk?mS?D7gjceYbXrs6VdJ61464",
-    database: "bshpanel",
+    host: "HOST",
+    user: "USERNAME",
+    password: "PASSWORD",
+    database: "DATABASE_NAME",
 });
 
 async function createModLogs(type, reason, staffId, offenderId) {
